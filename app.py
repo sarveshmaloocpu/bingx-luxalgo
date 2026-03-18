@@ -2,7 +2,8 @@ import os
 from flask import Flask, request, jsonify
 import ccxt
 
-app = Flask(__name__)
+app = Flask(app.py)
+
 
 # --- BingX Setup ---
 exchange = ccxt.bingx({
